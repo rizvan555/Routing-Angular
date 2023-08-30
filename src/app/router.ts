@@ -1,19 +1,6 @@
 import { Routes } from '@angular/router';
-import { C1Component } from './c1/c1.component';
-import { C2Component } from './c2/c2.component';
-import { C3Component } from './c3/c3.component';
+import { c1Route } from './c1/c1.route';
+import { C2Route } from './c2/c2.route';
+import { C3Route } from './c3/c3.route';
 
-export const routes: Routes = [
-  {
-    path: 'c1',
-    component: C1Component,
-  },
-  {
-    path: 'c2',
-    component: C2Component,
-  },
-  {
-    path: 'c3',
-    component: C3Component,
-  },
-];
+export const routes: Routes = [c1Route, C2Route, C3Route];
